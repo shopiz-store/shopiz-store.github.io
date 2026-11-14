@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /shopiz/
+Sitemap: https://nohabougherara01-afk.github.io/shopiz/sitemap.xml

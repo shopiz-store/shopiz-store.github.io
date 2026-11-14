@@ -1,0 +1,12 @@
+{
+  "appId": "com.shopiz.app",
+  "appName": "SHOPIZ",
+  "webDir": "www",
+  "backgroundColor": "#f4f7fc",
+  "ios": {
+    "contentInset": "automatic"
+  },
+  "android": {
+    "allowMixedContent": false
+  }
+}

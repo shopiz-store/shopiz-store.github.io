@@ -1,0 +1,20 @@
+{
+  "name": "shopiz-mobile",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Applications Android et iOS de SHOPIZ avec Capacitor",
+  "scripts": {
+    "mobile:prepare": "node scripts/prepare-mobile.mjs",
+    "mobile:sync": "npm run mobile:prepare && npx cap sync",
+    "mobile:android": "npm run mobile:prepare && npx cap open android",
+    "mobile:ios": "npm run mobile:prepare && npx cap open ios"
+  },
+  "dependencies": {
+    "@capacitor/core": "^7.4.0",
+    "@capacitor/android": "^7.4.0",
+    "@capacitor/ios": "^7.4.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.4.0"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "SHOPIZ — Trouvailles et bons plans",
+  "short_name": "SHOPIZ",
+  "description": "Découvrez des sélections de produits, enregistrez vos favoris et consultez les offres sur Amazon.",
+  "id": "/shopiz/",
+  "start_url": "/shopiz/",
+  "scope": "/shopiz/",
+  "display": "standalone",
+  "display_override": [
+    "standalone",
+    "minimal-ui"
+  ],
+  "background_color": "#f7f9fd",
+  "theme_color": "#153c88",
+  "lang": "fr",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
